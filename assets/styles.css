@@ -34,9 +34,6 @@ h2 :hover{
 .Hireme :hover{
   background-color: white;
 }
-p::first-letter{
-  font-size: 200%;
-}
 
 h3 {
   color: black;
@@ -170,16 +167,16 @@ img {
 
 .Loc{
   position: relative;
-  top: 0px;
+  bottom: -20px;
   left: 430px;
 }
 .Gmail{
   position: relative;
-  bottom: 280px;
+  bottom: 180px;
   left: 360px;
 }
 .Ld{
   position: relative;
-  bottom: 130px;
+  bottom: 70px;
   left: 280px;
 }
