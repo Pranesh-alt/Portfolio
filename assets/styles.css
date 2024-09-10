@@ -1,0 +1,181 @@
+*{
+  padding: 10px;
+}
+  html{
+    scroll-behavior: smooth;
+  }
+  h2{
+    display: ruby-base-container;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-right: 20px;
+    border-radius: 22px;
+    box-shadow: 2px 1px 20px rgba(255, 255, 255, 0.863);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 4;
+}
+h2 :hover{
+  background-color: orange;
+  border-radius: 20px;
+}
+.Hireme :hover{
+  background-color: white;
+}
+p::first-letter{
+  font-size: 200%;
+}
+
+h3 {
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: yellow;
+  position: relative;
+  left: 400px;
+  border-radius: 40px;
+  border-color: black;
+  width: 80px;
+  top: 200px
+}
+.fsd{
+  position: absolute;
+  top: 480px;;
+}
+p {
+  font-weight: bolder;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  box-shadow: 2px 1px 20px rgba(255, 255, 255, 0.863);
+  position: relative;
+  top: 180px;
+  left: 250px;
+}
+h1{
+  color: #FFDE59;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+  font-size: 80px;
+  position: relative;
+  left: 100px;
+  top: 200px;}
+img {
+    position: relative;
+    left: 800px;
+    bottom: 100px; 
+  }
+  .myskills{
+    color: white;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 70px;
+    padding: 6px;
+    background-color: black;
+    position: absolute;
+    left: 450px;
+    top: 620px;   
+  }
+  .about{
+    box-shadow: 2px 1px 20px yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(to bottom, black 0%, grey 100%);
+    border-radius: 50px;
+    width: fit-content;
+  }
+  
+  .skills{
+    box-shadow: 2px 1px 20px yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(to bottom, black 0%, grey 100%);
+    border-radius: 50px;
+    width: fit-content;
+  }
+  .Contact{
+    box-shadow: 2px 1px 20px yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(to bottom, black 0%, grey 100%);
+    border-radius: 50px;
+    width: fit-content; 
+  }
+  .enthusiated{
+    position: relative;
+    top: 300px;
+  }
+  .container1{
+    height: 100vh;
+  }
+  .container2{
+    display: grid;
+    height: 100vh;
+  }
+  .container3{
+    height: 100vh;
+    padding: 50px;
+  }
+  .Ct{
+    background-color: rgba(44, 42, 42, 0.922);
+    border-radius: 40px;
+    width: fit-content;
+  }
+  p{
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  left: 500px;
+  top: 130px;
+  font-size: xx-large;
+  background: linear-gradient(to bottom, black 0%, grey 100%);
+    border-radius: 40px;
+    width: fit-content;
+}
+.Pranesh{
+  color: #FFDE59;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150px;
+  position: absolute;
+  left: 100px;
+  top: 220px;
+ 
+}
+.Hireme{
+  color: rgb(6, 6, 0);
+  border: black;
+  border-width: 2px;
+  border-radius: 70px;
+  padding: 6px;
+  background-color: #FFDE59;
+  position: absolute;
+  left: 300px;
+  top: 620px;
+}
+
+.Loc{
+  position: relative;
+  top: 0px;
+  left: 430px;
+}
+.Gmail{
+  position: relative;
+  bottom: 280px;
+  left: 360px;
+}
+.Ld{
+  position: relative;
+  bottom: 130px;
+  left: 280px;
+}
