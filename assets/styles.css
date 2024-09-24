@@ -4,9 +4,7 @@
   html{
     scroll-behavior: smooth;
   }
-  h2{
-    display: ruby-base-container;
-  }
+
   a{
     text-decoration: none;
     color: white;
@@ -19,7 +17,6 @@ header {
     padding: 5px;
     padding-right: 20px;
     border-radius: 22px;
-    /* box-shadow: 2px 1px 20px rgba(255, 255, 255, 0.863); */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: 150%;
@@ -29,8 +26,6 @@ header {
     z-index: 4;
 }
 header :hover{
-  /* background-color: orange; */
-  /* border-radius: 20px; */
   text-decoration: underline orange;
 }
 .Hireme :hover{
@@ -61,15 +56,17 @@ p {
   position: relative;
   top: 180px;
   left: 250px;
+  padding: 1rem;
 }
 h1{
   color: #FFDE59;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bold;
-  font-size: 80px;
+  font-size: 300%;
   position: relative;
   left: 100px;
-  top: 200px;}
+  top: 200px;
+padding: 1rem;}
 img {
     position: relative;
     left: 800px;
@@ -81,11 +78,14 @@ img {
     border-style: solid;
     border-width: 2px;
     border-radius: 70px;
+    font-weight: bolder;
     padding: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
     background-color: black;
     position: absolute;
     left: 450px;
-    top: 620px;   
+    top: 640px;   
   }
   .about{
     box-shadow: 2px 1px 20px yellow;
@@ -153,7 +153,7 @@ img {
   font-size: 150px;
   position: absolute;
   left: 100px;
-  top: 220px;
+  top: 200px;
  
 }
 .Hireme{
@@ -170,17 +170,17 @@ img {
 
 .Loc{
   position: relative;
-  bottom: -20px;
+  bottom: -10px;
   left: 430px;
 }
 .Gmail{
   position: relative;
-  bottom: 180px;
+  bottom: 210px;
   left: 360px;
 }
 .Ld{
   position: relative;
-  bottom: 70px;
+  bottom: 100px;
   left: 280px;
 }
 .im{
