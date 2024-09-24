@@ -135,9 +135,8 @@ img {
   .container3{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-content: center;
     height: 80vh;
-    scroll-margin: 40px;
    
   }
   .Ct{
