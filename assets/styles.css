@@ -136,8 +136,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    scroll-margin: 100px;
+    height: 80vh;
+    scroll-margin: 40px;
    
   }
   .Ct{
@@ -177,23 +177,3 @@ img {
   left: 300px;
   top: 620px;
 }
-
-.Loc{
-  position: relative;
-  bottom: -10px;
-  left: 430px;
-}
-.Gmail{
-  position: relative;
-  bottom: 33gi0px;
-  left: 420px;
-}
-.Ld{
-  position: relative;
-  bottom: 280px;
-  left: 420px;
-}
-.im{
-  position: absolute;
-  top: 200px;
-} 
