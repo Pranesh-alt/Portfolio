@@ -28,7 +28,7 @@ header {
 header :hover{
   text-decoration: underline orange;
 }
-.Hireme :hover{
+.Hireme p :hover{
   background-color: white;
 }
 
@@ -99,23 +99,25 @@ img {
   .skills{
     box-shadow: 2px 1px 20px yellow;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
+    font-weight: bolderx;
     background: linear-gradient(to bottom, black 0%, grey 100%);
     border-radius: 50px;
     width: fit-content;
     scroll-margin: 100px;
   }
   .Contact{
-    box-shadow: 2px 1px 20px yellow;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     background: linear-gradient(to bottom, black 0%, grey 100%);
     border-radius: 50px;
     width: fit-content; 
+
   }
   .enthusiated{
     position: relative;
-    top: 300px;
+    top: 260px;
+    left: 3rem;
+    padding: 2rem;
   }
   .container0{
     height: 100vh;
@@ -124,17 +126,25 @@ img {
     height: 100vh;
   }
   .container2{
-    display: grid;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+       gap: 1rem;
+       height: 100vh;
   }
   .container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100vh;
-    padding: 50px;
+    scroll-margin: 100px;
+   
   }
   .Ct{
     background-color: rgba(44, 42, 42, 0.922);
-    border-radius: 40px;
+    border-radius: 30px;
     width: fit-content;
+    justify-content: center;
   }
   p{
   color: white;
@@ -175,13 +185,13 @@ img {
 }
 .Gmail{
   position: relative;
-  bottom: 210px;
-  left: 360px;
+  bottom: 33gi0px;
+  left: 420px;
 }
 .Ld{
   position: relative;
-  bottom: 100px;
-  left: 280px;
+  bottom: 280px;
+  left: 420px;
 }
 .im{
   position: absolute;
