@@ -147,6 +147,12 @@ a{
   *{
     overflow: scroll;
   }
+  header{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 60%;
+    width: 100%;
+  }
   .home h1{
     font-size: 300%;
   }
@@ -163,6 +169,10 @@ a{
   .about{
     display: flex;
     flex-wrap: wrap;
+  }
+  .about img{
+    margin-left: 1rem;
+    width: 600%;
   }
   .about p{
     height: 16rem;
