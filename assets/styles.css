@@ -24,10 +24,7 @@ body{
   }
 a{
     text-decoration: none;
-    color: white;
-    
-    
-    
+    color: white;  
 }
 .home{
   display: flex;
@@ -146,7 +143,47 @@ a{
 .contact img{
   width: 30%;
 }
-
+@media only screen and (max-width: 767px){
+  *{
+    overflow: hidden;
+  }
+  .home h1{
+    font-size: 300%;
+  }
+  .home p{
+    font-size: 100%;
+    height: 2rem;
+    margin-top: 0rem;
+    margin-left: 2rem;
+  }
+  .home img{
+    margin-left: 1rem;
+    width: 600%;
+  }
+  .about{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about p{
+    height: 16rem;
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+  .skills{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200vh;
+  }
+  .project{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200vh;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 /* header {
     width: 1400px;
     display: flex;
@@ -313,4 +350,4 @@ img {
   position: absolute;
   left: 300px;
   top: 620px;
-} */ */
+} */ 
