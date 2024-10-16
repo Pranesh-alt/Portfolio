@@ -48,6 +48,7 @@ a{
 }
 .home img{
   margin-left: 10rem;
+  height: 70%;
 }
 .about{
   height: 100vh;
@@ -89,6 +90,12 @@ a{
   padding: 1rem;
   box-shadow: 2px 1px 20px rgba(255, 255, 255, 0.863); 
 }
+.Ms:hover,.Mp:hover,.Ct:hover{
+  transform: translateZ(3rem);
+  transition: 2s;
+  transform: scale(1.2);
+  opacity: 0.5;
+  }
 .Ms p{
   justify-content: center;
 }
@@ -104,6 +111,8 @@ a{
 .project img{
   width: 50%;
 }
+
+
 .Mp{
   display: flex;
   flex-direction: column;
