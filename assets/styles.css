@@ -263,8 +263,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     height: auto; 
-
-  .contact {
+  }
+  .contact{
     flex-wrap: wrap;
   }
-  }}
+  }
