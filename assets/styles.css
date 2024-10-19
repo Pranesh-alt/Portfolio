@@ -5,6 +5,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 * {
@@ -41,8 +42,7 @@ a {
 .hamburger {
   font-size: 30px;
   color: white;
-  cursor: pointer;
-  display: none; 
+  cursor: pointer; 
 }
 
 /* Navigation Styles */
@@ -194,6 +194,31 @@ a {
 
 
 @media (max-width: 767px){
+  @media (max-width: 767px) {
+    .hamburger {
+        display: block; 
+    }
+
+    .nav {
+        display: none; 
+        flex-direction: column; 
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    .hamburger-toggle:checked + .hamburger + .nav {
+        display: flex;
+    }
+
+    .nav a {
+        padding: 15px;
+        border-bottom: 1px solid white;
+    }
+}
+
   .hamburger {
     display: block; 
   }
@@ -234,8 +259,8 @@ a {
   }
 
   .home img {
-    margin-left: -5rem;
-    width: 600%;
+    margin-left: -2rem;
+    width: 122%;
   }
 
   .about {
@@ -249,7 +274,7 @@ a {
   }
 
   .about p {
-    height: 16rem;
+    height: 18rem;
     border-radius: 2rem;
     padding: 2rem;
   }
@@ -268,3 +293,5 @@ a {
     flex-wrap: wrap;
   }
   }
+
+  
