@@ -147,6 +147,7 @@ nav {
 .project {
   align-items: center;
   display: flex;
+  justify-content: center;
   height: 100vh;
   gap: 2rem;
 }
@@ -292,6 +293,9 @@ nav {
     flex-wrap: wrap;
     height: auto; 
   }
+           /* Set a fixed height */
+    
+
   .contact{
     flex-wrap: wrap;
   }
