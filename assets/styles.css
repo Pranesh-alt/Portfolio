@@ -46,8 +46,11 @@ a {
 }
 
 /* Navigation Styles */
-.nav {
+nav {
+  position: fixed;
   display: flex;
+  justify-content: center; 
+  gap: 20px; 
 }
 
 .nav a {
