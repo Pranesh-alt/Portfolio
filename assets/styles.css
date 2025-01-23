@@ -114,9 +114,11 @@ nav {
 }
 
 .skills {
+  place-content: center;
   align-items: center;
   display: flex;
-  height: 100vh;
+  flex-wrap: wrap;
+  height: 120vh;
   gap: 2rem;
 }
 
@@ -125,7 +127,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 30%;
   height: 18rem;
   border-radius: 1rem;
   border: 0.1rem solid white;
@@ -141,7 +143,21 @@ nav {
 }
 
 .skills img {
-  width: 50%;
+  width: 30%;
+}
+
+.progress {
+  color: white;
+  background-color: #545454;
+  border-radius: 5px;
+  height: 3rem;
+  width: 20rem;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #f1c40f;
+  border-radius: 5px;
 }
 
 .project {
