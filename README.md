@@ -17,6 +17,6 @@
 
 ### 🌍 Connect With Me
 
-* Portfolio: \[your-portfolio.com] 🌐
+* Portfolio: \[pranesh-alt.github.io/Portfolio/] 🌐
 
 
